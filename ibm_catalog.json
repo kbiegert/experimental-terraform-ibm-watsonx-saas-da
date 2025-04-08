@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "label": "Watsonx.ai SaaS with Assistant and Governance",
-      "name": "deploy-arch-ibm-watsonx-ai-saas",
+      "label": "[Add-ons Beta] Watsonx.ai SaaS with Assistant and Governance",
+      "name": "testing-deploy-arch-ibm-watsonx-ai-saas",
       "product_kind": "solution",
       "tags": [
         "watson",
@@ -47,8 +47,8 @@
       ],
       "flavors": [
         {
-          "label": "standard",
-          "name": "standard",
+          "label": "Fully configurable",
+          "name": "fully-configurable",
           "working_directory": "./",
           "install_type": "fullstack",
           "licenses": [
@@ -95,7 +95,6 @@
                 }
               ],
               "custom_config": {
-
               }
             },
             {
@@ -109,7 +108,6 @@
                 }
               ],
               "custom_config": {
-
               }
             },
             {
@@ -131,7 +129,6 @@
                 }
               ],
               "custom_config": {
-
               }
             },
             {
@@ -149,7 +146,6 @@
                 }
               ],
               "custom_config": {
-
               }
             },
             {
@@ -175,7 +171,6 @@
                 }
               ],
               "custom_config": {
-
               }
             },
             {
@@ -209,7 +204,6 @@
                 }
               ],
               "custom_config": {
-
               }
             },
             {
@@ -231,7 +225,6 @@
                 }
               ],
               "custom_config": {
-
               }
             },
             {
@@ -253,7 +246,6 @@
                 }
               ],
               "custom_config": {
-
               }
             }
           ],
@@ -307,6 +299,129 @@
               "service_name": "kms"
             }
           ],
+          "dependencies": [
+            {
+              "name": "deploy-arch-ibm-watsonx-ai",
+              "label": "[Add-ons Beta] Cloud automation for watsonx.ai",
+              "id": "a780ed58-0252-4cfe-aeb7-005cdd460770",
+              "version": "^v1.3.3",
+              "flavors": [
+                "fully-configurable"
+              ],
+              "catalog_id": "9212a6da-ac9b-4f3c-94d8-83a866e1a250",
+              "optional": true,
+              "on_by_default": true,
+              "input_mapping": [
+                {
+                  "dependency_input": "prefix",
+                  "version_input": "prefix",
+                  "reference_version": true
+                },
+                {
+                  "dependency_input": "region",
+                  "version_input": "region",
+                  "reference_version": true
+                }
+              ]
+            },
+            {
+              "name": "deploy-arch-ibm-watson-discovery",
+              "label": "[Add-ons Beta] Cloud automation for Watson Discovery",
+              "id": "abc0d7ca-bcb4-4cf2-a5bf-b9608d49cf83",
+              "version": "^v1.1.3",
+              "flavors": [
+                "fully-configurable"
+              ],
+              "catalog_id": "9212a6da-ac9b-4f3c-94d8-83a866e1a250",
+              "optional": true,
+              "on_by_default": true,
+              "input_mapping": [
+                {
+                  "dependency_input": "prefix",
+                  "version_input": "prefix",
+                  "reference_version": true
+                },
+                {
+                  "dependency_input": "region",
+                  "version_input": "region",
+                  "reference_version": true
+                }
+              ]
+            },
+            {
+              "name": "deploy-arch-ibm-watsonx-data",
+              "label": "[Add-ons Beta] Cloud automation for watsonx.data",
+              "id": "2770cca7-40aa-478f-aa32-28cd2a2c1e76",
+              "version": "^v1.2.3",
+              "flavors": [
+                "fully-configurable"
+              ],
+              "catalog_id": "9212a6da-ac9b-4f3c-94d8-83a866e1a250",
+              "optional": true,
+              "on_by_default": true,
+              "input_mapping": [
+                {
+                  "dependency_input": "prefix",
+                  "version_input": "prefix",
+                  "reference_version": true
+                },
+                {
+                  "dependency_input": "region",
+                  "version_input": "region",
+                  "reference_version": true
+                }
+              ]
+            },
+            {
+              "name": "deploy-arch-ibm-watsonx-orchestrate",
+              "label": "[Add-ons Beta] Cloud automation for watsonx Orchestrate",
+              "id": "453d49af-9d3c-4c9f-9128-a1c2196af251",
+              "version": "^v1.1.6",
+              "flavors": [
+                "fully-configurable"
+              ],
+              "catalog_id": "9212a6da-ac9b-4f3c-94d8-83a866e1a250",
+              "optional": true,
+              "on_by_default": true,
+              "input_mapping": [
+                {
+                  "dependency_input": "prefix",
+                  "version_input": "prefix",
+                  "reference_version": true
+                },
+                {
+                  "dependency_input": "region",
+                  "version_input": "region",
+                  "reference_version": true
+                }
+              ]
+            },
+            {
+              "name": "deploy-arch-ibm-watsonx-governance",
+              "label": "[Add-ons Beta] Cloud automation for watsonx.governance",
+              "id": "56139b50-6359-46ee-a2f5-15d842bba0f0",
+              "version": "^v1.1.6",
+              "flavors": [
+                "fully-configurable"
+              ],
+              "catalog_id": "9212a6da-ac9b-4f3c-94d8-83a866e1a250",
+              "optional": true,
+              "on_by_default": true,
+              "input_mapping": [
+                {
+                  "dependency_input": "prefix",
+                  "version_input": "prefix",
+                  "reference_version": true
+                },
+                {
+                  "dependency_input": "region",
+                  "version_input": "region",
+                  "reference_version": true
+                }
+              ]
+            }
+          ],
+          "dependency_version_2": true,
           "compliance": {
             "authority": "scc-v3",
             "profiles": [
