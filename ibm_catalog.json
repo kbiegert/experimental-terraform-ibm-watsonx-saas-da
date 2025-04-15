@@ -151,7 +151,7 @@
               "name": "deploy-arch-ibm-watsonx-ai",
               "label": "[Add-ons Beta] Cloud automation for watsonx.ai",
               "id": "a780ed58-0252-4cfe-aeb7-005cdd460770",
-              "version": "^v1.3.3",
+              "version": "^v1.1.3",
               "flavors": [
                 "fully-configurable"
               ],
