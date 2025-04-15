@@ -150,12 +150,12 @@
             {
               "name": "deploy-arch-ibm-watsonx-ai",
               "label": "[Add-ons Beta] Cloud automation for watsonx.ai",
-              "id": "85b7c3d8-c947-408c-896c-52b375ceb1c0-global",
+              "id": "a780ed58-0252-4cfe-aeb7-005cdd460770",
               "version": "^v1.3.3",
               "flavors": [
                 "fully-configurable"
               ],
-              "catalog_id": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3",
+              "catalog_id": "9212a6da-ac9b-4f3c-94d8-83a866e1a250",
               "optional": true,
               "on_by_default": true,
               "input_mapping": [
@@ -174,12 +174,12 @@
             {
               "name": "deploy-arch-ibm-watson-discovery",
               "label": "[Add-ons Beta] Cloud automation for Watson Discovery",
-              "id": "0f616276-a8a4-4399-bcbf-d3129f30295e-global",
-              "version": "^v1.3.1",
+              "id": "abc0d7ca-bcb4-4cf2-a5bf-b9608d49cf83",
+              "version": "^v1.1.3",
               "flavors": [
                 "fully-configurable"
               ],
-              "catalog_id": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3",
+              "catalog_id": "9212a6da-ac9b-4f3c-94d8-83a866e1a250",
               "optional": true,
               "on_by_default": true,
               "input_mapping": [
@@ -198,12 +198,12 @@
             {
               "name": "deploy-arch-ibm-watsonx-data",
               "label": "[Add-ons Beta] Cloud automation for watsonx.data",
-              "id": "40dddcc7-246e-4c56-9e04-ac173f855868-global",
-              "version": "^v1.4.3",
+              "id": "2770cca7-40aa-478f-aa32-28cd2a2c1e76",
+              "version": "^v1.2.3",
               "flavors": [
                 "fully-configurable"
               ],
-              "catalog_id": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3",
+              "catalog_id": "9212a6da-ac9b-4f3c-94d8-83a866e1a250",
               "optional": true,
               "on_by_default": true,
               "input_mapping": [
@@ -222,12 +222,12 @@
             {
               "name": "deploy-arch-ibm-watsonx-orchestrate",
               "label": "[Add-ons Beta] Cloud automation for watsonx Orchestrate",
-              "id": "91ae7825-6b75-46f4-a305-c675c95aa3bc-global",
-              "version": "^v1.3.1",
+              "id": "453d49af-9d3c-4c9f-9128-a1c2196af251",
+              "version": "^v1.1.6",
               "flavors": [
                 "fully-configurable"
               ],
-              "catalog_id": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3",
+              "catalog_id": "9212a6da-ac9b-4f3c-94d8-83a866e1a250",
               "optional": true,
               "on_by_default": true,
               "input_mapping": [
@@ -246,12 +246,12 @@
             {
               "name": "deploy-arch-ibm-watsonx-governance",
               "label": "[Add-ons Beta] Cloud automation for watsonx.governance",
-              "id": "5d7c4272-dc45-49e6-8ef3-7f86af1e30d7-global",
-              "version": "^v1.3.1",
+              "id": "56139b50-6359-46ee-a2f5-15d842bba0f0",
+              "version": "^v1.1.6",
               "flavors": [
                 "fully-configurable"
               ],
-              "catalog_id": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3",
+              "catalog_id": "9212a6da-ac9b-4f3c-94d8-83a866e1a250",
               "optional": true,
               "on_by_default": true,
               "input_mapping": [
